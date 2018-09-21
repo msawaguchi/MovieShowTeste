@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimary"
+    android:paddingBottom="5dp"
+    android:id="@+id/listitem_movie"
+    >
+
+
+    <ImageView
+        android:id="@+id/list_item_thumbnail"
+        android:layout_width="47dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/videocamera" />
+
+    <TextView
+        android:id="@+id/txt_titulofilme"
+        android:layout_width="276dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginStart="62dp"
+        android:text="titulo"
+        android:textColor="@color/ColorwWhite"
+        android:textSize="20sp"
+        app:fontFamily="@font/folkslight" />
+
+    <ImageView
+        android:id="@+id/imgdrawico"
+        android:layout_width="30dp"
+        android:layout_height="34dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/video" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/ColorDarkGray" />
+
+</RelativeLayout>

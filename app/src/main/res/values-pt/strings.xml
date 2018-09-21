@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Movie Show</string>
+    <string name="title_activity_detalhes">DetalhesActivity</string>
+    <string name="titulo_original">Título Original:</string>
+    <string name="data_lancamento">Data de Lançamento:</string>
+    <string name="idioma_original">Idioma original:</string>
+    <string name="popularidade">Popularidade:</string>
+    <string name="sinopse">Sinopse:</string>
+    <string name="vote_average">Média de votos:</string>
+    <string name="buscar">Buscar</string>
+    <string name="digitenomefilme">Título do filme aqui</string>
+</resources>
